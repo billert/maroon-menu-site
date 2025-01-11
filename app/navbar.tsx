@@ -15,7 +15,7 @@ export default function Navbar() {
 
                 <Link href = "https://billert.dev" className = "transition-all flex flex-row items-center align-middle p-1 hover:bg-[#00000010] dark:hover:bg-[#ffffff10] active:bg-[#00000060] dark:active:bg-[#ffffff60]">
                     <div className = "transition ease-in-out flex flex-row">
-                        <p className = "text-lg mr-0 font-bold">billert</p>
+                        <p className = "text-lg mr-0 font-bold ">billert</p>
                         <p className = "text-lg ml-0 font-bold text-transparent text-stroke-black dark:text-stroke-white text-stroke-1">.dev</p>
                     
                     </div>
@@ -24,12 +24,12 @@ export default function Navbar() {
             </div>
             
         </div>
-        <div className = "pl-1 pr-1 flex flex-row items-center justify-between align-middle h-12 bg-[#50000080] backdrop-blur-md">
+        <div className = "pl-1 pr-1 flex flex-row items-center justify-between align-middle h-12 bg-[#500000c0] backdrop-blur-md">
             <div className = "flex flex-row gap-1">
 
-                <Link href = "/" className = "transition-all flex flex-row items-center align-middle p-1 hover:bg-[#00000010] dark:hover:bg-[#ffffff10] active:bg-[#00000060] dark:active:bg-[#ffffff60]">
+                <Link href = "/" className = "transition-all flex flex-row items-center align-middle p-1 hover:bg-[#ffffff10]active:bg-[#ffffff60]">
                     <div className = "transition ease-in-out flex flex-row">
-                        <p className = "text-3xl mr-0 font-bold">Maroon Menu</p>
+                        <p className = "transition-all text-3xl mr-0 font-bold text-white p-1 hover:bg-[#ffffff10] active:bg-[#ffffff50] rounded-lg">Maroon Menu</p>
                     
                     </div>
                 </Link>
@@ -37,7 +37,7 @@ export default function Navbar() {
                     return <li key={item.key} className = "list-none flex flex-row align-middle items-center justify-center">
                         <Link href = {"/"+item.name} className= "flex flex-row align-middle items-center justify-center">
                             <div className = "transition ease-in-out flex flex-row">
-                                <p className = {pathname.includes("/"+item.name) ? "opacity-100  bg-[#00000020] dark:bg-[#ffffff30] p-2" : "transition-colors opacity-70 p-2 hover:bg-[#00000010] dark:hover:bg-[#ffffff10] active:bg-[#00000060] dark:active:bg-[#ffffff60]"}>{item.displayName}</p>
+                                <p className = {pathname.includes("/"+item.name) ? "opacity-100 bg-[#ffffff30] p-2 text-white rounded-lg" : "transition-colors opacity-70 p-2 hover:bg-[#ffffff10] active:bg-[#ffffff60] text-white rounded-lg"}>{item.displayName}</p>
                             </div>
                         </Link>
                     </li>
