@@ -2,8 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation"
-import Image from "next/image";
-import { useState } from "react"
+
 
 const pageList = [{key: 0, name: "support", displayName: "Support"}, {key:1, name: "privacy", displayName: "Privacy"}]
 
