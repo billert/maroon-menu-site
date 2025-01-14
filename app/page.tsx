@@ -89,7 +89,7 @@ export default function Home() {
       </div>
       <div id="theresmore" className = "min-h-screen justify-center items-center flex flex-col pt-40">
         
-        <motion.p style = {{originX: 0.5, originY: 0.5}}  initial={{ opacity: 0.2 }} whileInView={{ opacity: 0.8 }} transition={{ type: "spring", bounce: 0.1, duration: 0.5, delay: 0.0}} viewport={{ once: true }} className="text-md md:text-2xl text-center">But wait! There&apos;s more:</motion.p>
+        <motion.p style = {{originX: 0.5, originY: 0.5}}  initial={{ opacity: 0.2 }} whileInView={{ opacity: 0.8 }} transition={{ type: "spring", bounce: 0.1, duration: 0.5, delay: 0.0}} viewport={{ once: true }} className="text-2xl md:text-2xl text-center mb-6">But wait! There&apos;s more:</motion.p>
         <Accordion variant = "bordered" itemClasses = {{title: "text-4xl"}}>
           <AccordionItem key="1" aria-label="Accordion 1" title={<motion.p style = {{originX: 0.5, originY: 0.5}}  initial={{ scale: 0 }} whileInView={{ scale: 1 }} transition={{ type: "spring", bounce: 0, duration: 0.5, delay: 0.1 }} className= "text-5xl font-extrabold bg-gradient-to-r from-[#ffd359] to-[#ffb700] inline-block text-transparent bg-clip-text text-center pb-1">⭐ Star your favorite foods</motion.p>}>
             <p className = "max-w-2xl">Was there ever a time you wanted to let your future self know that a certain meal was good? With stars, now you can!</p>
@@ -108,8 +108,8 @@ export default function Home() {
           </AccordionItem>
         </Accordion>
         <div className = "mt-10 justify-center items-center flex flex-col">
-          <motion.a href="#tryit" style = {{originX: 0, originY: 0}}  initial={{ opacity: 0 }} whileInView={{ opacity: 0.6 }} transition={{ type: "spring", bounce: 0, duration: 0.5, delay: 1.5}} className="text-2xl">Scroll</motion.a>
-          <motion.a style = {{originX: 0, originY: 0}}  initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ type: "spring", bounce: 0, duration: 0.5, delay: 1.5}} href = "#tryit">
+          <motion.a href="#tryit" style = {{originX: 0, originY: 0}}  initial={{ opacity: 0 }} whileInView={{ opacity: 0.6 }} transition={{ type: "spring", bounce: 0, duration: 0.5, delay: 0.3}} className="text-2xl">Scroll</motion.a>
+          <motion.a style = {{originX: 0, originY: 0}}  initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ type: "spring", bounce: 0, duration: 0.5, delay: 0.3}} href = "#tryit">
             <motion.div initial = {{y: 0}} animate = {{y: 10}} transition = {{repeat: Infinity, repeatType: "reverse", duration: 1}}>
               <Image src = "/arrow-right.svg" alt="Down arrow" width={50} height={50} className = "rotate-90 dark:invert opacity-60"></Image>
             </motion.div>
