@@ -7,10 +7,6 @@ import { Accordion, AccordionItem } from "@nextui-org/accordion";
 export default function Home() {
 
 
-  const defaultContent =
-    "Wow look at the cool app I made";
-    
-
   const question_text = [..."\"Should I swipe in?\""]
 
   const question_variant = {
