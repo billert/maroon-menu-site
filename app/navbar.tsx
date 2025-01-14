@@ -8,7 +8,7 @@ const pageList = [{key: 0, name: "support", displayName: "Support"}, {key:1, nam
 
 export default function Navbar() {
     const pathname = usePathname();
-    return <header className = "z-10 sticky top-0">
+    return <header className = "z-10 fixed w-full">
         <div className = "pl-1 pr-1 flex flex-row items-center justify-between align-middle h-6 bg-[repeating-linear-gradient(45deg,var(--tw-gradient-stops))] from-[#efefef] dark:from-[#090909] from-[length:0_20px] to-[#f5f5f5] dark:to-[#161616] to-[length:20px_40px]">
             <div className = "flex flex-row gap-1">
 
@@ -26,7 +26,7 @@ export default function Navbar() {
         <div className = "pl-1 pr-1 flex flex-row items-center justify-between align-middle h-12 bg-[#500000c0] backdrop-blur-md">
             <div className = "flex flex-row gap-1">
 
-                <Link href = "/" className = "transition-all flex flex-row items-center align-middle p-1 hover:bg-[#ffffff10]active:bg-[#ffffff60]">
+                <Link href = "/" className = "transition-all flex flex-row items-center align-middle hover:bg-[#ffffff10]active:bg-[#ffffff60]">
                     <div className = "transition ease-in-out flex flex-row">
                         <p className = "transition-all text-3xl mr-0 font-bold text-white p-1 hover:bg-[#ffffff10] active:bg-[#ffffff50] rounded-lg">Maroon Menu</p>
                     
