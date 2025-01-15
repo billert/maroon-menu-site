@@ -120,7 +120,7 @@ export default function Home() {
       </div>
       <div id="tryit" className = "min-h-screen justify-center items-center flex flex-col pt-40">
         <motion.p style = {{originX: 0, originY: 0}}  initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ type: "spring", bounce: 0, duration: 0.5, delay: 0.0}} className = "text-3xl md:text-5xl font-bold text-center">Give Maroon Menu a try</motion.p>
-        <motion.div className = "flex flex-row items-center justify-center gap-2 md:gap-5 mt-5 max-w-full p-2">
+        <motion.div className = "flex flex-row items-center justify-center gap-2 md:gap-5 mt-5 mb-5 max-w-full p-2">
             <motion.a initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ type: "spring", bounce: 0, duration: 0.5, delay: 0.25 }} href = "https://apps.apple.com/us/app/maroon-menu/id6739734458">
               <Image src = "/apple store.svg" alt="Apple App Store Download" width={200} height={100}></Image>
             </motion.a>
@@ -128,6 +128,7 @@ export default function Home() {
               <Image src = "/google store.png" alt="Google Play Store Downlaod" width={220} height={100}></Image>
             </motion.a>
           </motion.div>
+          <motion.p style = {{originX: 0, originY: 0}}  initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ type: "spring", bounce: 0, duration: 0.5, delay: 0.5}} className = "text-3xl md:text-5xl font-bold text-center">No ads or in-app purchases.</motion.p>
       </div>
     </div>
   );
