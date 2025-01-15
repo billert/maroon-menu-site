@@ -28,7 +28,7 @@ export default function Navbar() {
 
                 <Link href = "/" className = "transition-all flex flex-row items-center align-middle hover:bg-[#ffffff10]active:bg-[#ffffff60]">
                     <div className = "transition ease-in-out flex flex-row">
-                        <p className = "transition-all text-3xl mr-0 font-bold text-white p-1 hover:bg-[#ffffff10] active:bg-[#ffffff50] rounded-lg">Maroon Menu</p>
+                        <p className = "transition-all text-3xl mr-0 font-bold text-white p-1 hover:bg-[#ffffff10] active:bg-[#ffffff50] rounded-lg">Magic Menu</p>
                     
                     </div>
                 </Link>
