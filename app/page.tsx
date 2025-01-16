@@ -47,7 +47,7 @@ export default function Home() {
             <motion.p style = {{originX: 0.5, originY: 0.5}}  initial={{ scale: 0.7, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ type: "spring", bounce: 0, duration: 0.5, delay: 0.3 }} className="text-5xl md:text-6xl font-extrabold bg-gradient-to-r from-[#00FF11] to-[#63FFA9] inline-block text-transparent bg-clip-text text-center">Easier.</motion.p>
           </div>
           <div>
-            <motion.p style = {{originX: 0.5, originY: 0.5}}  initial={{ scale: 0.7, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ type: "spring", bounce: 0, duration: 0.5, delay: 0.35 }} className="text-5xl md:text-6xl font-extrabold bg-gradient-to-r from-[#AF0000] to-[#AF1111] inline-block text-transparent bg-clip-text text-center">Magic Menu.</motion.p>
+            <motion.p style = {{originX: 0.5, originY: 0.5}}  initial={{ scale: 0.7, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ type: "spring", bounce: 0, duration: 0.5, delay: 0.35 }} className="text-5xl md:text-6xl font-extrabold bg-gradient-to-r from-[#AF0000] to-[#AF1111] inline-block text-transparent bg-clip-text text-center">Magical Menu.</motion.p>
           </div>
           
           <motion.div className = "flex flex-row items-center justify-center gap-2 md:gap-5 mt-5 max-w-full p-2">
@@ -77,7 +77,7 @@ export default function Home() {
             return <li key = {index} className = "list-none"><motion.p variants = {letter_variant} viewport={{ once: true }} className="text-4xl md:text-6xl font-extrabold whitespace-pre-wrap">{item}</motion.p></li>
           })}
         </motion.div>
-        <motion.p style = {{originX: 0.5, originY: 0.5}}  initial={{ opacity: 0.2 }} whileInView={{ opacity: 0.8 }} transition={{ type: "spring", bounce: 0.1, duration: 0.25, delay: 1.5}} viewport={{ once: true }} className="text-md md:text-2xl text-center">Magic Menu makes that choice simpler.</motion.p>
+        <motion.p style = {{originX: 0.5, originY: 0.5}}  initial={{ opacity: 0.2 }} whileInView={{ opacity: 0.8 }} transition={{ type: "spring", bounce: 0.1, duration: 0.25, delay: 1.5}} viewport={{ once: true }} className="text-md md:text-2xl text-center">Magical Menu makes that choice simpler.</motion.p>
         <div className = "mt-10 justify-center items-center flex flex-col">
           <motion.a href="#theresmore" style = {{originX: 0, originY: 0}}  initial={{ opacity: 0 }} whileInView={{ opacity: 0.6 }} transition={{ type: "spring", bounce: 0, duration: 0.5, delay: 2}} className="text-2xl">Scroll</motion.a>
           <motion.a style = {{originX: 0, originY: 0}}  initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ type: "spring", bounce: 0, duration: 0.5, delay: 2}} href = "#theresmore">
@@ -98,7 +98,7 @@ export default function Home() {
             <p className = "max-w-2xl">Hate how you see the breakfast menu when you&apos;re trying to get to the dinner menu? You can now select the mealtime a little early, saving you time and taps.</p>
           </AccordionItem>
           <AccordionItem key="3" aria-label="Accordion 3" title={<motion.p style = {{originX: 0.5, originY: 0.5}}  initial={{ scale: 0 }} whileInView={{ scale: 1 }} transition={{ type: "spring", bounce: 0, duration: 0.5, delay: 0.2 }} className= "text-4xl md:text-5xl font-extrabold bg-gradient-to-r from-[#3cef6f] to-[#28ff9a] inline-block text-transparent bg-clip-text text-center pb-1">🧠 Remembers your dining hall</motion.p>}>
-            <p className = "max-w-2xl">If you don&apos;t live at The Commons, it&apos;s probably a little annoying to have to switch to your own dining hall each time. Magic Menu remembers the last dining hall you viewed the menu for, so you can skip the menu navigation.</p>
+            <p className = "max-w-2xl">If you don&apos;t live at The Commons, it&apos;s probably a little annoying to have to switch to your own dining hall each time. Magical Menu remembers the last dining hall you viewed the menu for, so you can skip the menu navigation.</p>
           </AccordionItem>
           <AccordionItem key="4" aria-label="Accordion 4" title={<motion.p style = {{originX: 0.5, originY: 0.5}}  initial={{ scale: 0 }} whileInView={{ scale: 1 }} transition={{ type: "spring", bounce: 0, duration: 0.5, delay: 0.25 }} className= "text-4xl md:text-5xl font-extrabold bg-gradient-to-r from-[#ef3c3c] to-[#ff8528] inline-block text-transparent bg-clip-text text-center pb-1">📦 Compact user interface</motion.p>}>
             <p className = "max-w-2xl">Our compact menu design shows more items on the screen at the same time, without sacrificing on looks. Scroll less and see more.</p>
@@ -119,7 +119,7 @@ export default function Home() {
         
       </div>
       <div id="tryit" className = "min-h-screen justify-center items-center flex flex-col pt-40">
-        <motion.p style = {{originX: 0, originY: 0}}  initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ type: "spring", bounce: 0, duration: 0.5, delay: 0.0}} className = "text-3xl md:text-5xl font-bold text-center">Give Magic Menu a try</motion.p>
+        <motion.p style = {{originX: 0, originY: 0}}  initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ type: "spring", bounce: 0, duration: 0.5, delay: 0.0}} className = "text-3xl md:text-5xl font-bold text-center">Give Magical Menu a try</motion.p>
         <motion.div className = "flex flex-row items-center justify-center gap-2 md:gap-5 mt-5 mb-5 max-w-full p-2">
             <motion.a initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ type: "spring", bounce: 0, duration: 0.5, delay: 0.25 }} href = "https://apps.apple.com/us/app/maroon-menu/id6739734458">
               <Image src = "/apple store.svg" alt="Apple App Store Download" width={200} height={100}></Image>

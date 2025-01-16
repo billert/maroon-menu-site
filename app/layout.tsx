@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Magic Menu",
+  title: "Magical Menu",
   description: "A menu checking app for Texas A&M",
 };
 
