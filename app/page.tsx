@@ -47,7 +47,7 @@ export default function Home() {
             <motion.p style = {{originX: 0.5, originY: 0.5}}  initial={{ scale: 0.7, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ type: "spring", bounce: 0, duration: 0.5, delay: 0.3 }} className="text-5xl md:text-6xl font-extrabold bg-gradient-to-r from-[#00FF11] to-[#63FFA9] inline-block text-transparent bg-clip-text text-center">Easier.</motion.p>
           </div>
           <div>
-            <motion.p style = {{originX: 0.5, originY: 0.5}}  initial={{ scale: 0.7, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ type: "spring", bounce: 0, duration: 0.5, delay: 0.35 }} className="text-5xl md:text-6xl font-extrabold bg-gradient-to-r from-[#AF0000] to-[#AF1111] inline-block text-transparent bg-clip-text text-center">Magical Menu.</motion.p>
+            <motion.p style = {{originX: 0.5, originY: 0.5}}  initial={{ scale: 0.7, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ type: "spring", bounce: 0, duration: 0.5, delay: 0.35 }} className="text-5xl md:text-6xl font-extrabold bg-gradient-to-r text-[#800000] text-center">Magical Menu.</motion.p>
           </div>
           
           <motion.div className = "flex flex-row items-center justify-center gap-2 md:gap-5 mt-5 max-w-full p-2">
