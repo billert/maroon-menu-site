@@ -45,5 +45,9 @@ export default function Navbar() {
             </div>
             
         </div>
+        <div className = "pl-1 pr-1 flex flex-row items-center justify-center align-middle h-18 gap-2 bg-[#ff0000c0] backdrop-blur-md">
+            <p className = "text-lg mr-0 font-bold ">System Message</p>
+            <p className = "text-lg mr-0 ">Your menus may appear inaccurate due to the menu data updating midway through the day. We are working on a fix and expect it to be done by the middle of February. For now, please tap "Wipe All Data" in the in-app settings menu and refresh the menu for the most accurate info.</p>
+        </div>
     </header>
 }
