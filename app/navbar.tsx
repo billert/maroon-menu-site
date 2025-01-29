@@ -45,9 +45,11 @@ export default function Navbar() {
             </div>
             
         </div>
+        {/*
         <div className = "pl-1 pr-1 flex flex-row items-center justify-center align-middle h-18 gap-2 bg-[#ff0000c0] backdrop-blur-md">
             <p className = "text-lg mr-0 font-bold ">System Message</p>
-            <p className = "text-lg mr-0 ">We&apos;ve finished developing a fix to a critical bug that shows outdated menus. Android users: The update should now be available as Version 1.7.0. iOS Users: The update should arrive by the end of the month as Version 1.7. </p>
+            <p className = "text-lg mr-0 ">We&apos;ve finished developing a fix to a critical bug that shows outdated menus. Please update your app. </p>
         </div>
+        */}
     </header>
 }
